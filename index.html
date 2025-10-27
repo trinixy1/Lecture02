@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/cat_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ლექცია 2 - Input Types</title>
+</head>
+<body>
+    
+    <div>
+        <h1>
+            ლექცია 2
+        </h1>
+        <p>
+            ეს ვებ გვერდი არის მეორე საშინაო დავალება. 
+        </p>
+    </div>
+
+    <div>
+         <form>
+            <h3>
+                ახალი მომხმარებლის რეგისტრაცია
+            </h3>
+            <div>
+                <p>
+                    <input
+                        type="text"
+                        id="UserFirstname"
+                        placeholder="შეიყვანეთ სახელი"
+                        required
+                    >
+                    <label for="UserFirstname">სახელი</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input
+                        type="text"
+                        id="UserLastname"
+                        placeholder="შეიყვანეთ გვარი"
+                        required
+                    >
+                    <label for="UserLastname">გვარი</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input
+                        type="email"
+                        id="UserEmail"
+                        placeholder="შეიყვანეთ მეილი"
+                        required
+                    >
+                    <label for="UserEmail">ელ. ფოსტა</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input
+                        type="tel"
+                        id="UserPhone"
+                        placeholder="შეიყვანეთ ტელეფონის ნომერი"
+                        required
+                    >
+                    <label for="UserPhone">ტელეფონის ნომერი</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input
+                        type="radio"
+                        id="UserFemale"
+                        name="UserGender"
+                        required
+                    >
+                    <label for="UserFemale">მდედრობითი</label>
+                </p>
+                <p>
+                    <input
+                        type="radio"
+                        id="UserMale"
+                        name="UserGender"
+                    >
+                    <label for="UserMale">მამრობითი</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input
+                        type="password"
+                        id="UserPassword"
+                        placeholder="შეიყვანეთ პაროლი"
+                        minlength="8"
+                        required
+                    >
+                    <label for="UserPassword">პაროლი</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input
+                        type="password"
+                        id="UserPasswordRepeat"
+                        placeholder="გაიმეორეთ პაროლი"
+                        minlength="8"
+                        required
+                    >
+                    <label for="UserPasswordRepeat">გაიმეორეთ პაროლი</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <button type="submit" id="UserButtonSubmit">შენახვა</button>
+                    <button type="reset" id="UserButtonReset">გასუფთავება</button>
+                </p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
